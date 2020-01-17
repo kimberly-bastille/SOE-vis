@@ -1,0 +1,61 @@
+---
+title: "SOE standardized visualizations " 
+output:
+  xaringan::moon_reader:
+    css: ["default", "libs/EDAB_theme.css"]
+    lib_dir: libs
+    nature:
+      titleSlideClass: ["right", "middle", "my-title"]
+      highlightStyle: githubp
+      highlightLines: true
+      countIncrementalSlides: false
+  revealjs::revealjs_presentation:
+    reveal_plugins: ["notes", "search"]
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(echo = F,
+                      warning = F,
+                      message = F)
+#Plotting and data libraries
+library(knitr)
+
+```
+
+<!--slide 1-->
+
+## Overall SOE structure
+
+###2-pager
+- Quick summary highlighting hot topics
+- New infographic
+
+###Sections
+- Human dimensions
+- Macrofauna
+- Low trophic/Environmental factors
+
+---
+<!--slide 2-->
+
+
+## Visualization schemes
+```{r pos, echo = F, out.width = "70%", fig.align = "center"}
+knitr::include_graphics("images/pos.png")
+```
+
+
+```{r neg, echo = F, out.width = "40%", fig.align = "center"}
+knitr::include_graphics("images/neg.png")
+```
+
+---
+
+## Supporting Materials 
+
+```{r tech-doc, echo = F, out.width = "100%", fig.align = "center"}
+knitr::include_graphics("images/tech-doc1.png")
+```
+
+
