@@ -23,21 +23,14 @@ library(knitr)
 
 ```
 
-<!--slide 1-->
 
 ## Overall SOE structure
 
-###2-pager
-- Quick summary highlighting hot topics
-- New infographic
-
-###Sections
-- Human dimensions
-- Macrofauna
-- Low trophic/Environmental factors
+```{r slide2, echo = F, out.width = "100%", fig.align = "center"}
+knitr::include_graphics("images/slide2.png")
+```
 
 ---
-<!--slide 2-->
 
 
 ## Visualization schemes
@@ -49,7 +42,9 @@ knitr::include_graphics("images/pos.png")
 ```{r neg, echo = F, out.width = "40%", fig.align = "center"}
 knitr::include_graphics("images/neg.png")
 ```
-
+.footnote[
+https://github.com/NOAA-EDAB/ecodata
+]
 ---
 
 ## Supporting Materials 
@@ -57,5 +52,7 @@ knitr::include_graphics("images/neg.png")
 ```{r tech-doc, echo = F, out.width = "100%", fig.align = "center"}
 knitr::include_graphics("images/tech-doc1.png")
 ```
-
+.footnote[
+https://noaa-edab.github.io/tech-doc.html
+]
 
